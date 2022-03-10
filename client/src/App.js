@@ -55,7 +55,8 @@ function App() {
           {
             games?.map((val) => {
               return (
-                <TableItem id={val.id} title={val.title} category={val.category} cb={() => {getGames()}}/>
+                <TableItem id={val.id} title={val.title} category={val.category}
+                 cb={() => {getGames()}}/>
               )
             })
           }
